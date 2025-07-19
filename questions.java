@@ -1,5 +1,4 @@
 
-import java.util.*;
 
 
 public class questions {
@@ -124,13 +123,54 @@ public class questions {
         
         // 11)print the pattern inverted half pyramid rotated 180 degree
 
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= i; j++) {
-                System.out.print("*");
-            }
-        System.out.println("");
-        }
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // for (int i = 1; i <= n; i++) {
+        //     for (int j = 1; j <= n - i; j++) {
+        //         System.out.print(" ");
+        //     }
+        //     for (int j = 1; j <= i; j++) {
+        //         System.out.print("*");
+        //     }
+        //     System.out.println("");
+        // }
+
+
+        // 12) print the pattern half pyramid with numbers
+
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // for (int i = 1; i <= n; i++) {
+        //     for (int j = 1; j <= i; j++) {
+        //         System.out.print(j);
+        //     }
+        //     System.out.println("");
+        // }
+
+        // 13) inverted half pyramid with numbers
+
+        //  Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // for (int i = 1; i <= n; i++) {
+        //     for (int j = 1; j <= n - i; j++) {
+        //         System.out.print(" ");
+        //     }
+        //     for (int j = 1; j <= i; j++) {
+        //         System.out.print("*");
+        //     }
+        //     System.out.println("");
+        // }
+
+
+        // 14) print the pattern invertedhalf pyramid with numbers
+
+        //  Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // for (int i = n; i >= 1; i--) {
+        //     for (int j = 1; j <= i; j++) {
+        //         System.out.print(j);
+        //     }
+        //     System.out.println("");
+        // }
     }
 }
