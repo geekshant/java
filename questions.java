@@ -1,5 +1,5 @@
 
-
+import java.util.*;
 
 public class questions {
 
@@ -109,6 +109,7 @@ public class questions {
         // System.out.println("");
         // }
 
+
         // 10) print the pattern inverted half pyramid
         
         // Scanner sc = new Scanner(System.in);
@@ -147,6 +148,7 @@ public class questions {
         //     System.out.println("");
         // }
 
+
         // 13) inverted half pyramid with numbers
 
         //  Scanner sc = new Scanner(System.in);
@@ -172,5 +174,140 @@ public class questions {
         //     }
         //     System.out.println("");
         // }
+
+
+        // 15) print the pattern flyod's triangle
+
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // int number = 1;
+        // for (int i = 1; i <= n; i++) {
+        //     for (int j = 1; j <= i; j++) {
+        //         System.out.print(number);
+        //         number++;
+        //     }
+        //     System.err.println("");
+        // }
+
+
+        // 16) print the pattern 101 triangle
+
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // for (int i = 1; i <= n; i++) {
+        //     for(int j = 1; j<=i; j++){
+        //         if((i+j)%2==0){
+        //             System.out.print("1");
+        //         }else{
+        //             System.out.print("0");
+        //         }
+        //     }System.out.println("");
+        //  }
+
+
+        // 17) print the pattern butterfly
+
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        
+        // for (int i = 1; i <= n; i++) {
+        //     for (int j = 1; j <= i; j++) {
+        //         System.out.print("*");
+        //     }
+        //     int spaces = 2 * (n - i);
+        //     for (int j = 1; j <= spaces; j++) {
+        //         System.out.print(" ");
+        //     }
+        //     for (int j = 1; j <= i; j++) {
+        //         System.out.print("*");
+        //     }
+        //     System.out.println("");
+        // }
+        // for (int i = n; i >= 1; i--) {
+        //     for (int j = 1; j <= i; j++) {
+        //         System.out.print("*");
+        //     }
+        //     int spaces = 2 * (n - i);
+        //     for (int j = 1; j <= spaces; j++) {
+        //         System.out.print(" ");
+        //     }
+        //     for (int j = 1; j <= i; j++) {
+        //         System.out.print("*");
+        //     }
+        //     System.out.println("");
+        // }
+
+
+        // 11) print the pattern solid rhombus
+
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // for (int i = 1; i <= n; i++) {
+        //     for (int j = 1; j <= n-i; j++) {
+        //         System.out.print(" ");
+        //     }
+
+        //     for(int j = 1; j<=n; j++){
+        //         System.out.print("*");
+        //     }
+        //     System.out.println("");
+        // }
+
+
+        // 12) print the pattern number pyramid
+        
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // for (int i = 1; i <= n; i++) {
+        //     for (int j = 1; j <= n - i; j++) {
+        //         System.out.print(" ");
+        //     }
+        //     for (int j = 1; j <= i; j++) {
+        //         System.out.print(i+" ");
+        //     }
+        //     System.out.println("");
+        // }
+
+
+        // 13) print the pattern palindrome
+
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // for (int i = 1; i <= n; i++) {
+        //     for (int j = 1; j <= n - i; j++) {
+        //         System.out.print(" ");
+        //     }
+        //     for (int j = i; j >= 1; j--) {
+        //         System.out.print(j);
+        //     }
+        //     for (int j = 2; j <= i; j++) {
+        //         System.out.print(j);
+        //     }
+        //     System.out.println("");
+        // }
+
+
+        // 14) print the pattern diamond
+
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n - i; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 1; j <= 2 * i - 1; j++) {
+                System.out.print("*");
+            }
+            System.out.println("");
+        }
+        for (int i = n; i >= 1; i--) {
+            for (int j = 1; j <= n - i; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 1; j <= 2 * i - 1; j++) {
+                System.out.print("*");
+            }
+            System.out.println("");
+        }
     }
 }
