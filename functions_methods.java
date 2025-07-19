@@ -4,7 +4,6 @@ import java.util.*;
 public class functions_methods {
     public static void printMyName(String name){
         System.out.println("name is "+ name);
-        return;
     }
 
     public static int add(int a, int b){
