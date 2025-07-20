@@ -8,12 +8,28 @@ public class funcque {
         return (a + b + c) / 3;
     }
 
+// 16) write a function to print the sum of all odd numbers from 1 to n
+    public static int OddSum(int n) {
+        int sum = 0;
+        for (int i = 1; i <= n; i++) {
+            if (i % 2 != 0) {
+                sum = sum + i;
+            } else {
+                System.out.println("wrong submission");
+            }
+        }return sum;
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        float a = sc.nextFloat();
         float b = sc.nextFloat();
         float c = sc.nextFloat();
-        float a = sc.nextFloat();
-        System.out.println("the average of the 3 numbers are : " +average(a, b,c));
+        int n = sc.nextInt();
+        System.out.println("the average of the 3 numbers are : " + average(a, b, c));
+
+        System.out.println("the sum of the odd numbers are : " + OddSum(n));                  
+
     }
-    
+
 }
