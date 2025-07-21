@@ -15,10 +15,14 @@ public class twoDArrays {
             }
         }
 
-        
+        int x = sc.nextInt();
+
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < column; j++) {
-                System.out.print(numbers[i][j]+ " ");
+                if(numbers[i][j] == x){
+                    System.out.printf("%d,%d",i,j);
+                }
+                // System.out.print(numbers[i][j]+ " ");
             }
             System.out.println("");
         }
