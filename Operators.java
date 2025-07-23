@@ -5,7 +5,5 @@ public class Operators{
         // relation operators
         // bitwise operators
         // assignment operators         
-        
-         
     }
 }
