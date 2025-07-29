@@ -72,6 +72,9 @@ public class OOPs {
         pen1.printType();
         Pen2.printType();
 
+        Student s3 = new Student();
+        s3.name = "dd";
+
         Student s1 = new Student("naal", 34);
         s1.name = "ishan";
         s1.age = 25;
