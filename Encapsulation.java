@@ -1,0 +1,1 @@
+// Encapsulation in Java is one of the fundamental object-oriented programming (OOP) principles. It refers to the wrapping (hiding) of data (variables) and the code (methods) that operates on the data into a single unit, typically a class, and restricting direct access to some of the object's components.
